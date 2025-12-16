@@ -1,18 +1,44 @@
-#include <iostream>
-#include <vector>
-using namespace std;
+#include <stdio.h>
+#define MAX 1000
+
+void nhap(int *n, int *m) {
+    do {
+        scanf("%d%d", n, m);
+        if (*n < 1 || *n > MAX || *m < 1 || *m > MAX) {
+            printf("Khong hop le, xin vui long nhap!\n");
+        }
+    } while (*n < 1 || *n > MAX || *m < 1 || *m > MAX);
+}
+
+void nhapMang(long long a[][MAX], int n, int m) {
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < m; j++) {
+            scanf("%lld", &a[i][j]);
+        }
+    }
+}
+
+void xuatMang(long long a[][MAX], int n, int m) {
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < m; j++) {
+            printf("Xuat mang vua nhap a[%d][%d]: %lld ", i, j, a[i][j]);
+        }
+        printf("\n");
+    }
+}
 
 int main() {
-    vector<int> v;
+    int T;
+    scanf("%d", &T);
 
-    v.push_back(5);
-    v.push_back(10);
-    v.push_back(15);
+    while (T--) {
+        int n, m;
+        long long a[MAX][MAX];
 
-    cout << "Size = " << v.size() << endl;
-    cout << "Capacity = " << v.capacity() << endl;
-
-    for (int i = 0; i < v.size(); i++) {
-        cout << v[i] << " ";
+        nhap(&n, &m);
+        nhapMang(a, n, m);
+        xuatMang(a, n, m);
     }
+
+    return 0;
 }
