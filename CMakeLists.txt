@@ -10,4 +10,6 @@ add_executable(Programming_Language
         .idea/vcs.xml
         nguyenvanhieu.vn/Progrmamming/HomeworkC_C++/1000baitaplaptrinhcuathayNguyenTanTranMinhKhang/Chuong4_Ham/Bai115.cpp
         nguyenvanhieu.vn/Progrmamming/HomeworkC_C++/1000baitaplaptrinhcuathayNguyenTanTranMinhKhang/Test.cpp
-        HowKteam.vn/programming/test.cpp)
+        HowKteam.vn/programming/test.cpp
+        FullHouse/FullHouseC43/Programming/HomeworkC_Cplusplus/HelloWorld.cpp
+        FullHouse/FullHouseC43/Programming/HomeworkC_Cplusplus/HelloWorld.cpp)
