@@ -12,4 +12,6 @@ add_executable(Programming_Language
         nguyenvanhieu.vn/Progrmamming/HomeworkC_C++/1000baitaplaptrinhcuathayNguyenTanTranMinhKhang/Test.cpp
         HowKteam.vn/programming/test.cpp
         FullHouse/FullHouseC43/Programming/HomeworkC_Cplusplus/HelloWorld.cpp
-        FullHouse/FullHouseC43/Programming/HomeworkC_Cplusplus/HelloWorld.cpp)
+        FullHouse/FullHouseC43/Programming/HomeworkC_Cplusplus/HelloWorld.cpp
+        "Information Technology/Website Skills Programming Language/nguyenvanhieu.vn/Progrmamming/HomeworkC_C++/1000baitaplaptrinhcuathayNguyenTanTranMinhKhang/Chuong1_LuuDoThuatToan/Bai1.cpp"
+        "Information Technology/Website Skills Programming Language/nguyenvanhieu.vn/Progrmamming/HomeworkC_C++/1000baitaplaptrinhcuathayNguyenTanTranMinhKhang/Chuong1_LuuDoThuatToan/Bai1.cpp")
